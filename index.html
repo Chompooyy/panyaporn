@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>หน้าแรก - AI กับการสร้างเว็บไซต์</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background: linear-gradient(135deg, #090314 0%, #170b2e 100%);
+            color: #f3e8ff;
+            line-height: 1.6;
+            min-height: 100vh;
+        }
+        /* Navbar ดีไซน์ใหม่ สวยหรู โทนม่วงเข้มโปร่งแสง */
+        header {
+            background: rgba(26, 11, 46, 0.85);
+            backdrop-filter: blur(10px);
+            padding: 1.2rem 3rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid rgba(168, 85, 247, 0.2);
+            position: sticky;
+            top: 0;
+            z-index: 100;
+        }
+        .logo {
+            font-size: 1.6rem;
+            font-weight: bold;
+            background: linear-gradient(90deg, #c084fc, #e879f9);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            letter-spacing: 0.5px;
+        }
+        nav ul {
+            display: flex;
+            list-style: none;
+            gap: 1rem;
+        }
+        nav a {
+            color: #d8b4fe;
+            text-decoration: none;
+            padding: 0.6rem 1.4rem;
+            border-radius: 30px;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            background: rgba(147, 51, 234, 0.05);
+            border: 1px solid rgba(147, 51, 234, 0.1);
+        }
+        /* เมนูเปลี่ยนสีและเรืองแสงเมื่อเอาเมาส์ไปชี้ */
+        nav a:hover {
+            color: #ffffff;
+            background: linear-gradient(135deg, #8b5cf6, #d946ef);
+            box-shadow: 0 0 20px rgba(217, 70, 239, 0.5);
+            border-color: transparent;
+            transform: translateY(-2px);
+        }
+        .active {
+            background: linear-gradient(135deg, #7c3aed, #c084fc);
+            color: #ffffff;
+            box-shadow: 0 0 15px rgba(124, 58, 237, 0.6);
+            border-color: transparent;
+        }
+        /* เนื้อหาหลัก */
+        .container {
+            max-width: 1100px;
+            margin: 3rem auto;
+            padding: 0 2rem;
+            text-align: center;
+        }
+        h1 {
+            font-size: 2.8rem;
+            margin-bottom: 1rem;
+            background: linear-gradient(90deg, #e9d5ff, #c084fc);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        p {
+            color: #cbd5e1;
+            font-size: 1.1rem;
+            margin-bottom: 2.5rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        /* กล่องรูปภาพพรีเมียม */
+        .image-box {
+            background: rgba(30, 20, 60, 0.6);
+            padding: 1rem;
+            border-radius: 20px;
+            border: 1px solid rgba(168, 85, 247, 0.4);
+            box-shadow: 0 15px 35px rgba(88, 28, 135, 0.4);
+            transition: transform 0.4s ease;
+        }
+        .image-box:hover {
+            transform: translateY(-5px);
+            border-color: rgba(217, 70, 239, 0.8);
+        }
+        .image-box img {
+            width: 100%;
+            max-height: 500px;
+            object-fit: cover;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="logo">✨ AI WebCreator</div>
+        <nav>
+            <ul>
+                <li><a href="index.html" class="active">หน้าแรก</a></li>
+                <li><a href="whatisai.html">AI คืออะไร</a></li>
+                <li><a href="benefits.html">ประโยชน์ของ AI</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h1>การประยุกต์ใช้ AI ในการสร้างเว็บไซต์</h1>
+        <p>ยกระดับการพัฒนาเว็บด้วยขุมพลังปัญญาประดิษฐ์อันชาญฉลาด ช่วยร่นระยะเวลา ดีไซน์ล้ำสมัย และสร้างสรรค์ผลงานได้อย่างไร้ขีดจำกัด</p>
+        
+        <div class="image-box">
+            <img src="images/AIJPG.jpg" alt="การประยุกต์ใช้ AI สร้างเว็บไซต์">
+        </div>
+    </div>
+
+</body>
+</html>
